@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+    background: linear-gradient(to right, #cce0ff, #e6e6ff);
+    color: #333;
+    margin: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #000066;
+    text-shadow: 2px 2px 4px #999;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #000066;
+    padding: 14px 18px;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+th {
+    background-color: #000066;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6ff;
+}
+
+tr:hover {
+    background-color: #b3b3ff;
+    transform: scale(1.01);
+}
+
+caption {
+    caption-side: bottom;
+    font-style: italic;
+    color: #333;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #000066;
+    font-weight: bold;
+    font-size: 16px;
+}
+</style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>GRADE</th>
+        <th>NAME</th>
+        <th>HOBBY</th>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>PAR</td>
+        <td>KARATE</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>MINK</td>
+        <td>SING</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>CHLOE</td>
+        <td>BASKETBALL</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>TONY</td>
+        <td>GUITAR</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>JUNE</td>
+        <td>DRAWING</td>
+    </tr>
+</table>
+
+
+</body>
+</html>

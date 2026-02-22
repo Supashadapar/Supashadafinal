@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Hobbies</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>My 3 Hobbies</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#contact">Contact</a>
+    <a href="#game">Game</a>
+    <a href="#calculator">Calculator</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I love Sports, Drawing, and Music.</p>
+</section>
+
+<section id="benefits">
+  <h2>Why I Love Them</h2>
+  <ul>
+    <li>Sports keeps me strong</li>
+    <li>Drawing improves creativity</li>
+    <li>Music helps me focus</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+
+  <div class="gallery-grid">
+    <div>
+      <img src="par3.jfif" alt="">
+      <p>Karate Training</p>
+    </div>
+    <div>
+      <img src="draw.jpg" alt="">
+      <p>Drawing Practice</p>
+    </div>
+    <div>
+      <img src="music.jpg" alt="">
+      <p>Music Time</p>
+    </div>
+  </div>
+</section>
+
+<section id="schedule">
+  <h2>Weekly Schedule</h2>
+  <table>
+    <tr><th>Day</th><th>Activity</th><th>Hours</th></tr>
+    <tr><td>Monday</td><td>Karate</td><td>2</td></tr>
+    <tr><td>Wednesday</td><td>Drawing</td><td>1</td></tr>
+    <tr><td>Friday</td><td>Music</td><td>1.5</td></tr>
+  </table>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Message" required></textarea>
+    <button>Send</button>
+  </form>
+</section>
+
+<section id="game">
+  <h2>🥋 Pop Karate Game</h2>
+  <p>Time: <span id="time">10</span>s</p>
+  <p>Score: <span id="score">0</span></p>
+
+  <div class="pop-area" onclick="popKarate()">🥋</div>
+
+  <button onclick="startPopGame()">Start Game</button>
+</section>
+
+<section id="calculator">
+  <h2>🧮 Calculator</h2>
+
+  <input type="text" id="display" readonly>
+
+  <div class="calc-grid">
+    <button onclick="press('7')">7</button>
+    <button onclick="press('8')">8</button>
+    <button onclick="press('9')">9</button>
+    <button onclick="press('/')">÷</button>
+
+    <button onclick="press('4')">4</button>
+    <button onclick="press('5')">5</button>
+    <button onclick="press('6')">6</button>
+    <button onclick="press('*')">×</button>
+
+    <button onclick="press('1')">1</button>
+    <button onclick="press('2')">2</button>
+    <button onclick="press('3')">3</button>
+    <button onclick="press('-')">−</button>
+
+    <button onclick="press('0')">0</button>
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="press('+')">+</button>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 My Hobby Website</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
